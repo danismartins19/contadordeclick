@@ -1,0 +1,61 @@
+body{
+    margin: 0 auto;
+}
+
+.container{
+    background-color: rgb(87, 87, 121);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contador{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(162, 162, 197);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto{
+    height: 40px;
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    outline: 0;
+    border-style: none;
+    text-align: center;
+    
+}
+
+.title{
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width:100%;
+    background-color: transparent;
+    
+}
